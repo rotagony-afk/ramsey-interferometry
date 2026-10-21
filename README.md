@@ -1,6 +1,6 @@
 # Ramsey 量子干涉仪 · 文献调研资料包
 
-209 条文献题录、40 条精读笔记、公式推导与实验路线。PDF 全文不随仓库发布（版权），见 papers/INDEX.md。
+209 条文献题录、40 条精读笔记、公式推导与实验路线，以及 38 篇文献全文 PDF。
 
 | 文件 | 说明 |
 |---|---|
@@ -22,5 +22,6 @@
 | 15_数据库覆盖对照.md | 图书馆数据库对 209 条文献的覆盖对照 |
 | figures/ramsey_fringes.png | Ramsey 条纹、线宽与标度关系图 |
 | tools/ramsey_fringe_plot.py | 生成该图与相关数值的脚本（numpy + Pillow） |
-| papers/INDEX.md | 38 篇本地 PDF 的索引（文件、文献、DOI） |
+| papers/INDEX.md | 38 篇 PDF 的索引（文件、文献、DOI） |
+| papers/*.pdf | 38 篇文献全文，161 MB（版权归各出版社，仅供个人研究，见 papers/NOTICE.md） |
 | GITHUB上传指南.md | 本仓库的上传与托管操作备忘（可删） |

@@ -1,7 +1,7 @@
 # 把文献库上传到 GitHub：操作指南
 
 > 适用环境：Windows。本机目前**没有安装 git**（已确认），但 winget 可用。
-> 本目录已完成准备：.gitignore 与 .gitattributes 已就位，papers 下的 PDF 默认被排除。
+> 本目录已完成准备：.gitignore 与 .gitattributes 已就位。注：2026-10 起 38 篇 PDF（161 MB）已随仓库发布；如需改用 Git LFS 或重新排除，见第 4 节与 .gitignore 注释。
 
 ---
 
