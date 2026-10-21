@@ -1,0 +1,35 @@
+# ============================================================
+# Ramsey 文献调研资料包 · .gitignore
+# 原则：文本/元数据/代码/图 入库；出版社 PDF 因版权与体积不入库
+# ============================================================
+
+# ---- 文献全文 PDF（版权原因默认排除）----
+papers/*.pdf
+# 备注：papers/INDEX.md 仍会入库（它是索引，不是全文）
+#
+# 如果你用的是【私有仓库】并且确认自用，可删除上面一行，
+# 改用 Git LFS 管理 PDF（见 GITHUB上传指南.md 第 4 节）：
+#   git lfs install
+#   git lfs track "*.pdf"
+
+# ---- 系统 / 编辑器 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+~$*
+.vscode/
+.idea/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+
+# ---- 临时核查缓存（不应入库）----
+_audit_*.json
+_merged.json
+_oa*.json
+_downloaded.json
+_imported.json
+_*_p1.tif
+_*_p1.png
